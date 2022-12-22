@@ -18,7 +18,7 @@
 /* Подключение секции header */
 .header {
   border-top: 10px solid #C31E39;
-  background: #F2DED5;
+  background: #F2E8E4;
 }
 .header .main-nav {
   display: flex;
@@ -38,4 +38,55 @@
   padding: 15px;
   color: #000;
   font-size: 18px;
+}
+
+/* Подключение секции promo */
+.promo {
+  padding-top: 190px;
+  border-top: 2px solid #fff;
+  min-height: 640px;
+  background: #F2E8E4;
+}
+.promo__wrapper {
+  position: relative;
+}
+.promo__img {
+  position: absolute;
+  left: 400px;
+  top: -46px;
+}
+.promo__hashtag {
+  text-transform: uppercase;
+  color: #C31E39;
+  font-size: 14px;
+}
+.promo__title {
+  text-transform: uppercase;
+  margin: 10px 0 66px;
+  color: #242424;
+  font-size: 40px;
+  line-height: 51px;
+  letter-spacing: 1.8px;
+}
+.promo__descr {
+  font-size: 20px;
+  color: #8E7B5B;
+  font-weight: 300;
+  max-width: 400px;
+  line-height: 30px;
+}
+.promo__btn {
+  color: #fff;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 960px;
+  top: 403px;
+}
+.promo__btn--arrow {
+  margin-left: 16px;
+}
+.promo__btn:hover {
+  font-weight: 700;
 }/*# sourceMappingURL=style.css.map */
