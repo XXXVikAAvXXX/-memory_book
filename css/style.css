@@ -38,9 +38,13 @@
   padding: 15px;
   color: #000;
   font-size: 18px;
+  transition: 0.1s;
 }
 .header .main-nav__link:hover {
   font-weight: 700;
+}
+.header .main-nav__link:active {
+  color: #C31E39;
 }
 
 /* Подключение секции promo */
@@ -209,6 +213,9 @@
 .obgects__link {
   color: #9B886C;
 }
+.obgects__link:active {
+  color: #635643;
+}
 .obgects__control {
   display: flex;
   margin-top: 48px;
@@ -263,12 +270,12 @@
   background: #C31E39;
   color: #fff;
 }
-.pagination__btn--active:hover {
-  box-shadow: none;
-}
 .pagination__btn:disabled {
   cursor: default;
 }
 .pagination__btn:disabled:hover {
   box-shadow: none;
+}
+.pagination__btn:disabled:active {
+  opacity: 1;
 }/*# sourceMappingURL=style.css.map */

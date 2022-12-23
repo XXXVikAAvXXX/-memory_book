@@ -85,6 +85,8 @@
         width: 456px
     &__link
         color: #9B886C
+        &:active
+            color: #635643
     &__control
         display: flex
         margin-top: 48px
@@ -126,9 +128,9 @@
     &--active
         background: #C31E39
         color: #fff
-        &:hover
-            box-shadow: none
     &:disabled
         cursor: default
     &:disabled:hover
         box-shadow: none
+    &:disabled:active
+        opacity: 1
