@@ -315,4 +315,69 @@
 .service-partners__img:active {
   transition: 0.1s;
   opacity: 0.6;
+}
+
+/* Подключение секции footer */
+.footer {
+  min-height: 327px;
+  background: #242424;
+  padding-top: 106px;
+}
+.footer__title {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 23px;
+}
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__security-rights {
+  width: 387px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 18px;
+}
+.footer__tel-info {
+  position: relative;
+}
+.footer__tel-info--title {
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+.footer__tel-info--phone {
+  color: #FFFFFF;
+  font-weight: 700;
+  transition: -webkit-text-decoration-line 0.3s;
+  transition: text-decoration-line 0.3s;
+  transition: text-decoration-line 0.3s, -webkit-text-decoration-line 0.3s;
+}
+.footer__tel-info--phone:hover {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+.footer__tel-info--img {
+  position: absolute;
+  top: -5px;
+  left: -45px;
+}
+.footer__copyright {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__copyright:hover .footer__copyright--title {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+.footer__copyright--title {
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+  width: 130px;
+  margin-right: 14px;
 }/*# sourceMappingURL=style.css.map */
