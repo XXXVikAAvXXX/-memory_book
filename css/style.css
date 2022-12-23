@@ -235,6 +235,7 @@
 }
 .obgects__toggle--right {
   background: #A8A8A8;
+  box-shadow: 5px 20px 40px rgba(20, 20, 26, 0.2);
 }
 .obgects__toggle--left, .obgects__toggle--right {
   border-radius: 50%;
@@ -244,7 +245,7 @@
   transition: 0.2s;
 }
 .obgects__toggle--left:hover, .obgects__toggle--right:hover {
-  box-shadow: 5px 20px 40px rgba(20, 20, 26, 0.2);
+  box-shadow: 5px 20px 40px rgba(20, 20, 26, 0.3);
 }
 .obgects__toggle--left:active, .obgects__toggle--right:active {
   opacity: 0.6;
@@ -283,4 +284,35 @@
 }
 .pagination__btn:disabled:active {
   opacity: 1;
+}
+
+/* Подключение секции service-partners */
+.service-partners {
+  margin: 80px 0 128px;
+}
+.service-partners__descr {
+  margin: 47px 0 77px;
+  width: 514px;
+  color: #3F3B3B;
+  line-height: 35px;
+}
+.service-partners__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.service-partners__link {
+  width: 139px;
+  height: 138px;
+}
+.service-partners__img {
+  transition: 0.3s;
+  filter: grayscale(1);
+}
+.service-partners__img:hover {
+  filter: grayscale(0);
+}
+.service-partners__img:active {
+  transition: 0.1s;
+  opacity: 0.6;
 }/*# sourceMappingURL=style.css.map */
