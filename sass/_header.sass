@@ -21,3 +21,14 @@
                 font-weight: 700
             &:active
                 color: #C31E39
+            &--active
+                position: relative
+                color: #C31E39
+                &::after
+                    content: ""
+                    position: absolute
+                    width: 40px
+                    height: 2px
+                    background: #C31E39
+                    bottom: 10px
+                    left: 15px
