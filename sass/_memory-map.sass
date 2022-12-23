@@ -1,0 +1,134 @@
+.sight
+    margin-top: 147px
+    &__title
+            text-transform: uppercase
+            color: #242424
+            font-size: 40px
+            line-height: 51px
+            letter-spacing: 1.8px
+    &__list
+        margin: 80px 0 88px
+        display: flex
+        justify-content: space-between
+    &__item
+        display: flex
+        align-items: center
+        transition: 0.3s
+        &:hover
+            box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1)
+            .sight__name
+                font-weight: 700
+        &:active
+            opacity: 0.3
+            transition: 0s
+    &__link
+        background: none
+        border: 1px solid #F1F2F8
+        cursor: pointer
+        display: flex
+        align-items: center
+        min-height: 80px
+        padding: 0 35px
+        &--active
+            box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1)
+            .sight__name
+                color: #C31E39
+            .sight__icon
+                display: none
+                &--active
+                    display: block
+    &__icon
+        &--active
+            display: none
+    &__name
+        margin-left: 24px
+        font-size: 16px
+    &__btn
+        &--more
+            font-size: 16px
+            &:hover
+                font-weight: 700
+            &:active
+                opacity: 0.3
+                transition: 0s
+    &__map
+        display: block
+        margin: 0 auto
+.title__divider
+    margin-top: 18px
+    display: flex
+    &--red
+        width: 100px
+        height: 1px
+        background: #C31E39
+    &--black
+        width: 350px
+        height: 1px
+        background: #000
+.obgects
+    margin-top: 88px
+    &__title
+        margin-bottom: 32px
+    &__list
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+    &__item
+        display: flex
+        align-items: center
+        padding: 24px
+        border: 1px solid #F1F2F8
+        border-radius: 15px
+        background: #fff
+        margin-bottom: 16px
+    &__descr
+        width: 456px
+    &__link
+        color: #9B886C
+    &__control
+        display: flex
+        margin-top: 48px
+        justify-content: end
+        align-items: center
+    &__toggle
+        margin-left: 48px
+        &--left
+            margin-right: 32px
+        &--right
+            background: #A8A8A8
+        &--left,
+        &--right
+            border-radius: 50%
+            border: 1px solid #D1D1D1
+            padding: 24px
+            cursor: pointer
+            transition: 0.2s
+            &:hover
+                box-shadow: 5px 20px 40px rgba(20, 20, 26, 0.2)
+            &:active
+                opacity: 0.6
+.pagination__list
+    display: flex
+.pagination__btn
+    font-size: 12px
+    background: #fff
+    border: 1px solid #DFDFDF
+    border-radius: 2px
+    padding: 10px 14px
+    cursor: pointer
+    margin-right: 16px
+    transition: 0.2s
+    &:hover
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2)
+    &:active
+        opacity: 0.6
+        transition: 0s
+    &--active
+        background: #C31E39
+        color: #fff
+        &:hover
+            box-shadow: none
+    &:disabled
+        cursor: default
+    &:disabled:hover
+        box-shadow: none
