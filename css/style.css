@@ -42,6 +42,10 @@
   cursor: pointer;
 }
 
+.another-header {
+  border: 1px solid #D0D0D0;
+}
+
 /* Подключение секции header */
 .header {
   border-top: 10px solid #C31E39;
@@ -398,6 +402,7 @@
 /* Подключение секции find-soldier */
 .breadcrumbs__list {
   display: flex;
+  margin: 86px 0 18px;
 }
 .breadcrumbs__item {
   max-width: 207px;
@@ -417,4 +422,50 @@
 }
 .breadcrumbs__item:last-child::after {
   display: none;
+}
+
+.find-soldier__descr {
+  color: #3F3B3B;
+  margin-top: 47px;
+  font-size: 18px;
+  line-height: 35px;
+  max-width: 506px;
+}
+.find-soldier__list {
+  margin-top: 66px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.find-soldier__item {
+  position: relative;
+  margin-bottom: 44px;
+  margin-right: 44px;
+  width: 376px;
+  min-height: 389px;
+  box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+}
+.find-soldier__item:nth-child(3n) {
+  margin-right: 0;
+}
+.find-soldier__item:hover {
+  box-shadow: 5px 30px 40px rgba(0, 0, 0, 0.4);
+}
+.find-soldier__link {
+  display: block;
+  padding: 58px 51px 30px 48px;
+  width: 100%;
+  height: 100%;
+}
+.find-soldier__img {
+  margin-bottom: 30px;
+}
+.find-soldier__text {
+  color: #14141A;
+  line-height: 160%;
+}
+.find-soldier__arrow {
+  position: absolute;
+  bottom: 30px;
+  right: 51px;
 }/*# sourceMappingURL=style.css.map */
