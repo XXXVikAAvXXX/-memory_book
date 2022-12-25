@@ -424,6 +424,9 @@
   display: none;
 }
 
+.find-soldier {
+  margin-bottom: 160px;
+}
 .find-soldier__descr {
   color: #3F3B3B;
   margin-top: 47px;
