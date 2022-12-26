@@ -471,4 +471,71 @@
   position: absolute;
   bottom: 30px;
   right: 51px;
+}
+
+/* Подключение секции don-heroes */
+.don-heroes__descr {
+  margin-top: 47px;
+  max-width: 551px;
+  color: #3F3B3B;
+  font-size: 18px;
+  line-height: 35px;
+}
+.don-heroes__list {
+  margin-top: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+}
+.don-heroes__item {
+  position: relative;
+  width: 440px;
+  min-height: 238px;
+  transition: box-shadow 0.3s;
+  border: none;
+}
+.don-heroes__item:nth-child(odd) {
+  margin-right: 87px;
+}
+.don-heroes__item:hover {
+  border: 1px solid #F1F2F8;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+}
+.don-heroes__item:hover .don-heroes__watch {
+  opacity: 1;
+}
+.don-heroes__link {
+  padding: 40px 43px 42px 37px;
+  display: flex;
+  width: 440px;
+  min-height: 238px;
+}
+.don-heroes__name {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 21px;
+}
+.don-heroes__surname {
+  display: block;
+  font-size: 24px;
+}
+.don-heroes__date {
+  max-width: 225px;
+  line-height: 160%;
+}
+.don-heroes__img {
+  margin-right: 29px;
+}
+.don-heroes__watch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 15px;
+  right: 20px;
+  opacity: 0;
+  transition: 0.8s;
+}
+.don-heroes__arrow {
+  margin-left: 11px;
 }/*# sourceMappingURL=style.css.map */

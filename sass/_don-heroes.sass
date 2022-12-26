@@ -1,0 +1,54 @@
+.don-heroes
+    &__descr
+        margin-top: 47px
+        max-width: 551px
+        color: #3F3B3B
+        font-size: 18px
+        line-height: 35px
+    &__list
+        margin-top: 70px
+        display: flex
+        flex-wrap: wrap
+        justify-content: end
+    &__item
+        position: relative
+        width: 440px
+        min-height: 238px
+        transition: box-shadow 0.3s
+        border: none
+        &:nth-child(odd)
+            margin-right: 87px
+        &:hover
+            border: 1px solid #F1F2F8
+            box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1)
+            .don-heroes__watch
+                opacity: 1
+    &__link
+        padding: 40px 43px 42px 37px
+        display: flex
+        width: 440px
+        min-height: 238px
+
+    &__name
+        font-weight: 700
+        font-size: 20px
+        margin-bottom: 21px
+    &__surname
+        display: block
+        font-size: 24px
+    &__date
+        max-width: 225px
+        line-height: 160%
+    &__img
+        margin-right: 29px
+    &__watch
+        display: flex
+        justify-content: center
+        align-items: center
+        position: absolute
+        bottom: 15px
+        right: 20px
+        opacity: 0
+        transition: 0.8s
+    &__arrow
+        margin-left: 11px
