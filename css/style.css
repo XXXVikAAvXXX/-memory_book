@@ -510,7 +510,7 @@
 .don-heroes__link {
   padding: 40px 43px 42px 37px;
   display: flex;
-  width: 440px;
+  width: 480px;
   min-height: 238px;
 }
 .don-heroes__name {
@@ -541,4 +541,38 @@
 }
 .don-heroes__arrow {
   margin-left: 11px;
+}
+
+/* Подключение секции documents */
+.documents__descr {
+  margin-top: 47px;
+  font-size: 18px;
+  line-height: 35px;
+  max-width: 522px;
+  color: #3F3B3B;
+}
+.documents__list {
+  margin-top: 47px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.documents__link {
+  display: flex;
+}
+.documents__img {
+  margin-right: 20px;
+}
+.documents__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 32px 17px;
+  transition: box-shadow 0.3s;
+}
+.documents__item:hover {
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+}
+.documents__weight {
+  color: #A8A8A8;
+  line-height: 35px;
 }/*# sourceMappingURL=style.css.map */
