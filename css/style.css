@@ -544,6 +544,9 @@
 }
 
 /* Подключение секции documents */
+.documents {
+  margin-bottom: 76px;
+}
 .documents__descr {
   margin-top: 47px;
   font-size: 18px;
