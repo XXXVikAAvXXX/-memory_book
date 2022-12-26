@@ -474,6 +474,9 @@
 }
 
 /* Подключение секции don-heroes */
+.don-heroes {
+  margin-bottom: 65px;
+}
 .don-heroes__descr {
   margin-top: 47px;
   max-width: 551px;
