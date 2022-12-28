@@ -578,4 +578,19 @@
 .documents__weight {
   color: #A8A8A8;
   line-height: 35px;
+}
+
+/* Подключение секции without-time-limitation */
+.without-time-limitation {
+  margin-bottom: 87px;
+}
+.without-time-limitation__descr {
+  margin: 47px 0;
+  font-size: 18px;
+  line-height: 35px;
+  max-width: 617px;
+  color: #3F3B3B;
+}
+.without-time-limitation__img {
+  display: block;
 }/*# sourceMappingURL=style.css.map */
