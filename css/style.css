@@ -593,4 +593,74 @@
 }
 .without-time-limitation__img {
   display: block;
+}
+
+/* Подключение секции streets-victory */
+.streets-victory__descr {
+  margin: 47px 0 52px;
+  font-size: 18px;
+  line-height: 35px;
+  max-width: 484px;
+  color: #3F3B3B;
+}
+.streets-victory__btn {
+  text-align: left;
+  width: 300px;
+  border: none;
+  cursor: pointer;
+  background: none;
+  font-size: 18px;
+  color: #3F3B3B;
+  font-weight: 700;
+  padding: 13px 0 14px 0;
+  border-bottom: 1px solid #E7E7E7;
+}
+.streets-victory__dropdown-content {
+  display: none;
+  margin: 30px 0 20px;
+}
+.streets-victory__dropdown-content--link {
+  display: block;
+  line-height: 25px;
+  font-size: 16px;
+  color: #3F3B3B;
+}
+.streets-victory__list {
+  max-height: 1100px;
+  padding-left: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: space-between;
+}
+.streets-victory__item {
+  position: relative;
+}
+.streets-victory__plus {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  color: rgb(238, 238, 238);
+  border: none;
+  position: absolute;
+  top: 10px;
+  left: -40px;
+  cursor: pointer;
+}
+.streets-victory__plus-half {
+  position: absolute;
+  top: 11px;
+  left: 6px;
+  width: 11px;
+  height: 2px;
+  background: #9D9D9D;
+}
+.streets-victory__plus-half:nth-child(2) {
+  transform: rotate(-90deg);
+}
+.streets-victory__plus--active .streets-victory__plus-half:nth-child(1) {
+  transform: rotate(-45deg);
+}
+.streets-victory__plus--active .streets-victory__plus-half:nth-child(2) {
+  transform: rotate(45deg);
 }/*# sourceMappingURL=style.css.map */
