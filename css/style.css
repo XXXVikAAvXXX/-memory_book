@@ -90,6 +90,9 @@
   bottom: 10px;
   left: 15px;
 }
+.header .main-nav__link--active-black {
+  color: #14141A;
+}
 
 /* Подключение секции promo */
 .promo {
@@ -663,4 +666,47 @@
 }
 .streets-victory__plus--active .streets-victory__plus-half:nth-child(2) {
   transform: rotate(45deg);
+}
+.streets-victory__inner {
+  margin-top: 116px;
+  padding-left: 108px;
+  display: flex;
+}
+.streets-victory__info {
+  max-width: 726px;
+  padding-left: 104px;
+}
+.streets-victory__info--title {
+  font-size: 40px;
+  font-weight: 700;
+  max-width: 204px;
+  margin-bottom: 35px;
+}
+.streets-victory__info--descr {
+  line-height: 160%;
+}
+.streets-victory__toggle {
+  margin-top: 24px;
+}
+.streets-victory__toggle-wrapper {
+  display: flex;
+  justify-content: end;
+}
+.streets-victory__img {
+  display: block;
+  position: relative;
+}
+.streets-victory__photo {
+  position: relative;
+}
+.streets-victory__photo--substrate {
+  position: absolute;
+  left: -108px;
+  top: 32px;
+  width: 172px;
+  height: 207px;
+  background: #F2E8E4;
+}
+.streets-victory-control {
+  margin-bottom: 116px;
 }/*# sourceMappingURL=style.css.map */
